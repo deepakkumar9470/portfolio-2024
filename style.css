@@ -564,8 +564,8 @@ transform: scale(1,1) translate(0px, 0px);
       font-size: 75px;
      }
      .main_Text .resume_btn{
-      width: 500px;
-      padding: 25px 40px;
+      width: 400px;
+      padding: 20px 25px;
       font-size: 24px;
       margin-top: 20px;
      }
@@ -603,15 +603,10 @@ transform: scale(1,1) translate(0px, 0px);
     }
  
     .about{
-      /* width: 100%;
-      display: block;
-      margin: 0 auto; */
+
     }
     .row{
-      /* width: 100%;
-      display: block;
-      margin: 0 auto;
-      flex-direction: column; */
+
     }
     .about_col_1,.about_col_2{
       width: 100%;
@@ -623,8 +618,10 @@ transform: scale(1,1) translate(0px, 0px);
     }
     .about_col_1 img{
       /* width: 50%; */
-      width: 600px;
+      width: 400px;
       height: auto;
+      margin-left: 80px;
+      margin-top: 40px;
       object-fit: cover;
     }
     .about_col_2{
@@ -738,9 +735,9 @@ transform: scale(1,1) translate(0px, 0px);
         font-size: 65px;
        }
        .main_Text .resume_btn{
-        width: 500px;
-        padding: 20px 40px;
-        font-size: 24px;
+        width: 400px;
+        padding: 15px 25px;
+        font-size: 20px;
        }
   
       nav .myicons{
@@ -790,9 +787,10 @@ transform: scale(1,1) translate(0px, 0px);
         margin-bottom: 30px;
       }
       .about_col_1 img{
-        width: 100%;
+        width: 400px;
         height: auto;
         object-fit: cover;
+        margin-left: 40px;
       }
       .about_col_2{
         font-size: 14px;
@@ -889,9 +887,9 @@ transform: scale(1,1) translate(0px, 0px);
       font-size: 50px;
     }
     .main_Text .resume_btn{
-      width: 400px;
-      padding: 20px 40px;
-      font-size: 20px;
+      width: 250px;
+      padding: 15px 25px;
+      font-size: 18px;
      }
 
     nav .myicons{
@@ -949,9 +947,11 @@ transform: scale(1,1) translate(0px, 0px);
       margin-bottom: 30px;
     }
     .about_col_1 img{
-      width: 90%;
+      width: 100%;
       height: 400px;
       object-fit: cover;
+      margin-top: 65px;
+      margin-left: 0;
     }
     .about_col_2{
       font-size: 14px;
