@@ -103,7 +103,11 @@ nav ul li a:hover::after{
 .main_Text h1{
   font-size: 60px;
   margin-top: 20px;
-  
+}
+
+.main_Text h1 .typewritter{
+  font-family: 'Exo 2', sans-serif; 
+
 }
 .main_Text h1 span{
     color: var(--red-color);
