@@ -544,25 +544,31 @@ transform: scale(1,1) translate(0px, 0px);
 }
 
 
-@media screen and (max-width:768px) {
-  #header{
-      background-image: url('./images/men-2.png');
-      background-size: cover;
-      background-position: left;
-      margin-top: 50px;
-  }
+@media screen and (max-width:767px) {
   .main_Text{
-  margin-top: 100%;
-  font-size: 16px;
-  }
-
-  .main_Text h1{
-      font-size: 30px;
+    margin-top: 20%;
+    font-size: 20px;
+   }
+    .main_Text p{
+      font-size: 50px;
     }
+
+    .main_Text h1{
+        font-size: 50px;
+     }
+    .main_Text h1 .typewritter{
+      font-size: 75px;
+     }
+     .main_Text .resume_btn{
+      width: 500px;
+      padding: 25px 40px;
+      font-size: 24px;
+      margin-top: 20px;
+     }
 
     nav .myicons{
       display: block;
-      font-size: 25px;
+      font-size: 42px;
     }
 
     nav ul{
@@ -582,43 +588,112 @@ transform: scale(1,1) translate(0px, 0px);
     }
 
     nav  ul .myicons{
-      /* background: white; */
       position: absolute;
       top:25px;
       left: 25px;
       cursor: pointer;
     }
 
-    .main_Text{
-      font-size: 40px;
-    }
     .main_Text h1 span{
       font-size: 60px;
     }
+ 
+    .about{
+      /* width: 100%;
+      display: block;
+      margin: 0 auto; */
+    }
+    .row{
+      /* width: 100%;
+      display: block;
+      margin: 0 auto;
+      flex-direction: column; */
+    }
     .about_col_1,.about_col_2{
-      flex-basis: 100%;
+      width: 100%;
     }
 
     .about_col_1 {
+      width: 100%;
       margin-bottom: 30px;
     }
+    .about_col_1 img{
+      /* width: 50%; */
+      width: 600px;
+      height: auto;
+      object-fit: cover;
+    }
     .about_col_2{
-      font-size: 14px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      
     }
     .about_col_2 p{
-      font-size: 12px;
-      font-weight: 500;
-      width: 300px;
+      width: 600px;
+      margin: 0 auto;
+      font-size: 22px;
+      font-weight: 600;
       text-align: justify;
     }
+    .about_col_2 p .myname{
+      font-size: 25px;
+    }
+
+    .tab_Wrapper{
+      width: 100%;
+      margin: 0 auto;
+      margin: 25px 0 40px;
+    }
     .tab_links{
-      font-size: 16px;
+      font-size: 24px !important;
       margin-right: 20px;
     }
+   
     .tab_Contents{
+      display: block;
       width: 100%;
+      margin: 0 auto;
     }
-    
+    .tab_Contents ul li {
+      font-size: 20px;
+    }
+    .tab_Contents ul li span{
+      font-size: 22px;
+    }
+    .about_Text{
+      font-size: 50px;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+
+    .services_list div h2{
+       font-size: 30px;
+  }
+  
+  .services_list div span{
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .services_list div span p{
+    font-size: 18px;
+    overflow: hidden;
+    letter-spacing: 1px;
+  } 
+  #services .services_list{
+    width: 100%;
+    display: block;
+    grid-template-columns: 400px;
+    gap: 50px;
+    margin:0 auto;
+  }
+  .services_list div{
+    margin-bottom: 25px;
+  }
+  .services_list div a{
+    font-size: 20px;
+  }
     .contact_left,.contact_right{
       flex-basis: 100%;
     }
@@ -626,7 +701,8 @@ transform: scale(1,1) translate(0px, 0px);
       text-align: center;
     }
     .footer{
-      font-size: 14px;
+      font-size: 20px;
+      padding: 15px 20px;
     }
     .btnWrapper{
       flex-direction: column;
@@ -637,21 +713,31 @@ transform: scale(1,1) translate(0px, 0px);
     .resume_btn{
       width: 100%;
     }
+
+   
 }
 
 
 @media screen and (max-width:667px) {
-  .main_Text{
-    margin-top: 20%;
-    font-size: 20px;
-    }
-  
-    .main_Text h1{
-        font-size: 40px;
-      }
-      .main_Text h1 .typewritter{
+     .main_Text{
+      margin-top: 20%;
+      font-size: 20px;
+     }
+      .main_Text p{
         font-size: 50px;
       }
+  
+      .main_Text h1{
+          font-size: 45px;
+       }
+      .main_Text h1 .typewritter{
+        font-size: 65px;
+       }
+       .main_Text .resume_btn{
+        width: 500px;
+        padding: 20px 40px;
+        font-size: 24px;
+       }
   
       nav .myicons{
         display: block;
@@ -680,24 +766,16 @@ transform: scale(1,1) translate(0px, 0px);
         left: 25px;
         cursor: pointer;
       }
-  
-      .main_Text{
-        font-size: 40px;
-      }
+
       .main_Text h1 span{
         font-size: 60px;
       }
    
       .about{
-        width: 100%;
-        display: block;
-        margin: 0 auto;
+
       }
       .row{
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-        flex-direction: column;
+      
       }
       .about_col_1,.about_col_2{
         width: 100%;
@@ -708,29 +786,32 @@ transform: scale(1,1) translate(0px, 0px);
         margin-bottom: 30px;
       }
       .about_col_1 img{
-        width: 90%;
-        height: 400px;
+        width: 100%;
+        height: auto;
         object-fit: cover;
       }
       .about_col_2{
         font-size: 14px;
+        
       }
       .about_col_2 p{
-        font-size: 18px;
-        font-weight: 500;
-        width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 22px;
+        font-weight: 600;
         text-align: justify;
       }
       .about_col_2 p .myname{
-        font-size: 20px;
+        font-size: 25px;
       }
   
       .tab_Wrapper{
-        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
         margin: 25px 0 40px;
       }
       .tab_links{
-        font-size: 18px;
+        font-size: 24px !important;
         margin-right: 20px;
       }
      
@@ -740,13 +821,14 @@ transform: scale(1,1) translate(0px, 0px);
         margin: 0 auto;
       }
       .tab_Contents ul li {
-        font-size: 18px;
+        font-size: 20px;
       }
       .tab_Contents ul li span{
-        font-size: 20px;
+        font-size: 22px;
       }
       .about_Text{
         font-size: 50px;
+        padding: 10px 0;
         text-align: center;
       }
   
@@ -774,7 +856,8 @@ transform: scale(1,1) translate(0px, 0px);
         text-align: center;
       }
       .footer{
-        font-size: 16px;
+        font-size: 20px;
+        padding: 15px 20px;
       }
       .btnWrapper{
         flex-direction: column;
@@ -801,6 +884,11 @@ transform: scale(1,1) translate(0px, 0px);
     .main_Text h1 .typewritter{
       font-size: 50px;
     }
+    .main_Text .resume_btn{
+      width: 400px;
+      padding: 20px 40px;
+      font-size: 20px;
+     }
 
     nav .myicons{
       display: block;
