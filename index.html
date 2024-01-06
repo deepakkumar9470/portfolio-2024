@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Deepak Portfolio 2024</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+      <!-- Navbar section Start -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h2>D<span>EEPAK.</span></h2>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="myicons fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="myicons fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="main_Text">
+          <p>Full Stack Developer | Web Developer</p>
+          <h1>Hello , My Self <br /><span class="typewritter">Deepak Kumar Chouhan</span></h1>
+          <div class="btnWrapper">
+            <button class="hireme">Hire Me</button>
+            <button class="resume_btn"><a href="/images/DEEPAK-KR-RESUME.pdf"  
+              download>
+              Download Resume</a>
+            </button>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+     <!-- Navbar section End -->
+
+
+      <!-- About section Start -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about_col_1">
+            <img src="/images/DEEPAK-PIC.jpg" alt="deepak" />
+          </div>
+          <div class="about_col_2">
+            <h1 class="about_Text">About Me</h1>
+            <p>
+              My Name is <span class="myname">DEEPAK KUMAR CHOUHAN</span>. I am from Dhanbad, Jharkhand.I
+              have done B.Tech (CSE) 2019 form University College of Engineering
+              & Technology,Vinoba Bhave University,Hazaribagh.I am Full Stack
+              Developer with Nextjs,Ts experience.I possess Web Development,
+              ReactJS ,NextJS, MERN Stack ,Python & Django and AWS.
+            </p>
+
+            <div class="tab_Wrapper">
+              <p class="tab_links active_link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab_links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab_links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab_Contents active_tab" id="skills">
+              <ul>
+                <li><span>ReactJS</span><br />Develop Web application</li>
+                <li>
+                  <span>MERN</span><br />Develop Web application using
+                  ReactJS,Node,Express & Mongodb
+                </li>
+                <li>
+                  <span>VueJS</span><br />Develop Web application using VueJS ,
+                  Nuxt,Vuetify etc.
+                </li>
+                <li>
+                  <span>NextJS</span><br />Develop Web application using NextJS
+                  14+ & Web Full Stack App
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab_Contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022</span><br />Web Developer Intern, Blurgs banglore
+                </li>
+                <li>
+                  <span>2022</span><br />Full Stack Intern, Taptalent.ai,
+                  Banglore
+                </li>
+                <li>
+                  <span>2023</span><br />Full Stack Developer with
+                  Nextjs,Typescript,Tailwindcss,AWS experience
+                </li>
+              </ul>
+            </div>
+            <div class="tab_Contents" id="education">
+              <ul>
+                <li>
+                  <span>2011</span><br />10<sup>th</sup> CBSE Board, Doon Public School,
+                  Dhanbad
+                </li>
+                <li>
+                  <span>2013</span><br />12<sup>th</sup> JAC Board, Dr S.P.M Inter
+                  College,Sindri,Dhanbad
+                </li>
+                <li>
+                  <span>2015-2019</span><br />B.Tech, CSE, UCET,VBU
+                  University,Hazaribagh,Jh
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- About section End -->
+
+      <!-- Services section Start -->
+    <div id="services">
+      <div class="container">
+        <h1 class="about_Text">Services</h1>
+        <div class="services_list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>MERN Stack Development</h2>
+            <span>
+              We build Web app using MERN Stack Technologies. Examples : 
+              <p>Ecommerce,Social Media,Fintech,E-Selling etc</p>
+            </span>
+            <a href="https://www.youtube.com/watch?v=fSmp7Cv-c_0&list=PLwGdqUZWnOp3t3qT7pvAznwUDzKbhEcCc" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>ReactJS Web Application Development</h2>
+            <span>
+                We build Web application using ReactJS. Examples : 
+                <p>Ecommerce App,Social Media,Fintech,Weather,Dashboards etc</p>
+              </span>
+            <a href="https://react.dev/" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>NextJS Full Web Application Development</h2>
+            <span>
+                We build Web application using NextJS 14. Examples : 
+                <p>Ecommerce App,Admin Dashboards,Movie Streaming App,Weather etc</p>
+              </span>
+            <a href="https://nextjs.org/" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Services section End -->
+
+
+      <!-- Portfolio Work section Start -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="about_Text">Projects</h1>
+        <div class="work_list">
+          <div class="work">
+            <img src="./images/job finder.png" alt="job-finder" />
+            <div class="layer">
+              <h3>MERN Ecommerce App</h3>
+              <p>
+                MERN Ecommerce using React,Node,Express,Mongodb,Stripe Payment
+              </p>
+              <a href="https://mern-job-finder.netlify.app/find-jobs" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/mern_ecommerce.png" alt="mern_ecommerce" />
+            <div class="layer">
+              <h3>MERN Memorie App</h3>
+              <p>
+                MERN Ecommerce using React,Node,Express,Mongodb,Stripe Payment
+              </p>
+              <a href="https://mern-ecomm-app.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/React_Collaboration.png" alt="React_Collaboration" />
+            <div class="layer">
+              <h3>Real Time Collaboration App</h3>
+              <p>
+                Code Collaboration app using React,Node,Socket-Io.
+              </p>
+              <a href="https://realtime-code-collaboration-app.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/mern_memories.PNG" alt="mern_memories" />
+            <div class="layer">
+              <h3>MERN Memories App</h3>
+              <p>
+                MERN Memories app using React,Node,Express,Mongodb,File Uload etc.
+              </p>
+              <a href="https://mern-memorie-app.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/mern_website.png" alt="mern_website" />
+            <div class="layer">
+              <h3>MERN Website App</h3>
+              <p>
+                MERN Website app using React,Node,Express,Mongodb.
+              </p>
+              <a href="https://mern-website-app.herokuapp.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./images/react_quiz.png" alt="react_quiz" />
+            <div class="layer">
+              <h3>React Quiz App</h3>
+              <p>
+                React Quiz App using React,Hooks.
+              </p>
+              <a href="https://react-quiz-game-app.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/react_video_stream.png" alt="react_video_stream" />
+            <div class="layer">
+              <h3>React Video Stream App</h3>
+              <p>
+                React Video Stream App using React,WebRTC.
+              </p>
+              <a href="https://react-quiz-game-app.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/react_weather.png" alt="react_weather" />
+            <div class="layer">
+              <h3>React Weather App </h3>
+              <p>
+                React Weather App using React,Hooks,Weather(OpenApi).
+              </p>
+              <a href="https://weather-app-live.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+
+          <div class="work">
+            <img src="./images/React_Movie_ Database.png" alt="Database" />
+            <div class="layer">
+              <h3>React Movie Search App </h3>
+              <p>
+                React Movie Search App using React,Tmdb api.
+              </p>
+              <a href="https://react-movie-list.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./images/ecommerce.png" alt="react-ecommerce" />
+            <div class="layer">
+              <h3>React Ecommerce  App </h3>
+              <p>
+                React Ecommerce App using React,Hooks,Fake product list api.
+              </p>
+              <a href="https://react-ecommerce-web-app-2023.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./images/nextjs_blog.png" alt="next-blog" />
+            <div class="layer">
+              <h3>NextJS Blog  App </h3>
+              <p>
+                NextJS Blog  App using NextJS,Tailwindcss,Mongodb,Prisma.
+              </p>
+              <a href="https://github.com/deepakkumar9470/next-blog-app-2023" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="./images/movie-web.png" alt="nextjs-dashboard" />
+            <div class="layer">
+              <h3>Nextjs Movie Streaming  App </h3>
+              <p>
+                Nextjs Movie Streaming App using Nextjs,Tailwindcss,movieapi.
+              </p>
+              <a href="https://nextjs-movie-pi.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/dashboard.png" alt="nextjs-dashboard" />
+            <div class="layer">
+              <h3>Nextjs Dashboard  App </h3>
+              <p>
+                Nextjs Dashboard App using Nextjs,Tailwindcss,fake user json data.
+              </p>
+              <a href="https://next-dashboard-app.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/nextjs_recipe.png" alt="nextjs_recipe" />
+            <div class="layer">
+              <h3>Nextjs Recipe Search  App </h3>
+              <p>
+                Nextjs Recipe Search App using Nextjs,Tailwindcss,edaman recpie api.
+              </p>
+              <a href="https://nextjs-food-search.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/nextjs_taxi_booking.png" alt="nextjs_taxi_booking" />
+            <div class="layer">
+              <h3>Nextjs Taxi Booking App </h3>
+              <p>
+                Nextjs Taxi Booking App using Nextjs,Tailwindcss,google place api.
+              </p>
+              <a href="https://nextjs-taxi-booking.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Portfolio Work section End -->
+
+      <!-- Contact section Start -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact_left">
+            <h1 class="about_Text">Contact Me</h1>
+            <p><i class="fa-regular fa-envelope"></i> dk397787@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91-9470509277</p>
+            <div class="social_icons">
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+            <a href="/images/my-cv.pdf" download class="download_btn"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact_right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>Copyright &copy; DeepakTV. Made with 💛 by Deepak Kumar</p>
+      </div>
+    </div>
+     <!-- Contact section End -->
+
+     <a class="scrolltop" href="#"><i class="fas fa-arrow-up"></i></a>   
+
+      <!-- Script section Start -->
+          <script src="/script.js"></script>
+
+          <script>
+            const scriptURL =
+              "https://script.google.com/macros/s/AKfycbxSbq5Ld65IKef4L3eSrLBFdfoX4gPyP5TEQ6FEkkaHbsRAyRUaErkSaolddZkpHyPKRg/exec";
+            const form = document.forms["submit-to-google-sheet"];
+            const msg = document.getElementById("msg");
+            form.addEventListener("submit", (e) => {
+              e.preventDefault();
+              fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => {
+                  msg.innerHTML = "Message sent successfully.";
+                  setTimeout(() => {
+                    msg.innerHTML = "";
+                  }, 5000);
+                  form.reset();
+                })
+                .catch((error) => console.error("Error!", error.message));
+            });
+          </script>
+      <!-- Script section End -->
+
+  </body>
+</html>
